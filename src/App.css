@@ -26,10 +26,15 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
-
+/* left */
 .left-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
   width: 20%;
-  background-color: #222;
+  text-align: left;
+  background-color: #001529;
 }
 
 .left-top {
@@ -37,4 +42,31 @@
   height: 100px;
   padding-top: 20px;
   text-align: center
+}
+/* right */
+.rightContent {
+  float: right;
+  width: 80%;
+}
+/* headerLogin */
+.headerLogin {
+  height: 80px;
+  line-height: 80px;
+  overflow: hidden;
+  padding-right: 80px;
+  border-bottom: 1px solid yellowgreen;
+}
+.login {
+  float: right;
+}
+.login a {
+  margin-left: 50px;
+  color: yellow;
+}
+/*index header*/
+.indexHeaderContainer {
+  height: 100px;
+}
+.indexHeaderTime {
+  float: right
 }

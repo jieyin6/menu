@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import logo from './logo-ant.svg';
 import './App.css';
-import {Button} from 'antd'
-import LeftComponent from './components/left'
+import LeftComponent from './components/left/left'
+import RightComponent from './components/right/right'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <LeftComponent></LeftComponent>
+        <RightComponent></RightComponent>
       </div>
     );
   }
